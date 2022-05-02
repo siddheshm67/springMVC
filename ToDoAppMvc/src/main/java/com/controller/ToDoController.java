@@ -30,6 +30,7 @@ public class ToDoController {
 		List<ToDo> list = this.toDODaw.geToDos();
 		model.addAttribute("todos", list);
 		model.addAttribute("page", page);
+		system.out.println("this is controller method");
 		return"home";
 	}
 	
